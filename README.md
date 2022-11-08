@@ -1,6 +1,6 @@
 # copa
 
-![preview](./.preview.jpeg)
+![preview](./preview.jpeg)
 
 > Trilha Explorer
 
