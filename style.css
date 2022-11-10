@@ -27,10 +27,14 @@ body {
 
     width: fit-content;
     margin: 52px auto;
+    align-items: center;
+    justify-items: auto;
 }
 
 header {
     margin-bottom: 63px;
+    text-align: center;
+
 
 
 }
@@ -61,6 +65,19 @@ header {
 
 }
 
+#cards {
+
+  display: flex;
+  gap:16px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-items: center;
+  margin-inline: 80px;
+ /* flex-direction: column; */
+
+
+}
+
 .card span {
 
     color: #e1e1e6;
@@ -80,7 +97,6 @@ header {
     padding-top: 24
     border-top: 1px solid #323238;
     
-
   }
 
   .card ul li strong {
